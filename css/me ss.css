@@ -14,6 +14,16 @@ body
   line-height: normal;
   overflow-x: hidden;
 }
+.main-fluid {
+  width: 100%;
+}
+@media (max-width: 1000px){
+  .main-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  }
 .top-header 
 {
   padding-top: 7px;
@@ -234,7 +244,7 @@ nav.site-menu .navbar
       .carousel-item img 
       {
         width: 100%!important;
-        height: 80vh;
+        height: 50vh;
       }
       .banner-text {
         text-align: center;
@@ -427,12 +437,14 @@ nav.site-menu .navbar
   font-size: 36px;
   font-weight: 400;
   margin: 0px;
+  padding-left: 8px;
 }
 .main-footer-sub-content p 
 {
   color: #fff;
   font-weight: 300;
   font-size: 12px;
+  padding-left: 8px;
 }
 .main-footer-sub-content span 
 {
@@ -441,6 +453,7 @@ nav.site-menu .navbar
   color: #fff;
   font-size: 14px;
   font-weight: 500;
+  padding-left: 8px;
 }
 
 .removeclass 
@@ -500,6 +513,20 @@ ul.list-style-remove
   background: rgba(0,0,0,0.2);
   padding: 15px 0px
 }
+@media (max-width: 1000px){
+  .main-footer-sub-content ul li
+  {
+    padding-left: 8px;
+  }
+  .main-footer-sub-content p 
+  {
+    padding-left: 8px;
+  }
+  .main-footer-sub-content h1 
+{
+  padding-left: 8px;
+}
+  }
 .text-right-sub 
 {
   color: #fff;
@@ -532,7 +559,6 @@ ul.list-style-remove
 	margin: 70px 0;
 }
 
-/* owl nav */
 .owl-prev span, .owl-next span {
   color: #fff;
   font-size: 25px;
@@ -562,7 +588,6 @@ ul.list-style-remove
 	right: -50px;
 }
 
-/* removing blue outline from buttons */
 button:focus, button:active {
    outline: none;
 }
