@@ -1,3 +1,27 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@syedfawadhashmi5 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+syedfawadhashmi5
+/
+syedfawad-pakistan.net
+1
+00
+ Code Issues 0 Pull requests 0 Actions Projects 0 Wiki Security Insights Settings
+syedfawad-pakistan.net/css/me ss.css
+@syedfawadhashmi5 syedfawadhashmi5 Update me ss.css
+aba9307 in 12 hours
+744 lines (697 sloc)  12.1 KB
+  
 body
  {
   color: #888;
@@ -247,6 +271,12 @@ nav.site-menu .navbar
       {
         font-size: 24px;      }
         }
+  @media (max-width: 700px) {
+    .img-box-1 img
+    {
+      width: 100%;
+    }
+    }
   .section-3
   {
     padding: 87px 0px;
@@ -261,6 +291,18 @@ nav.site-menu .navbar
     text-align: center;
 }
   }
+  @media (max-width: 991.98px) {
+    .text-2 {
+      padding: 10px 0px;
+      font-size: 11px;
+  }
+  .text-1 h1 {
+    color: #11843d !important;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 4px 0 0;
+}
+    }
 .text-1 a {
   display: inline-block;
   background: green;
@@ -724,18 +766,6 @@ button:focus, button:active {
 }
 
 .carousel-indicators li{margin:0 4px; display:inline-block; outline:none;}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
