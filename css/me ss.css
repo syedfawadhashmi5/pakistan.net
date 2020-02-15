@@ -1,27 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@syedfawadhashmi5 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-syedfawadhashmi5
-/
-syedfawad-pakistan.net
-1
-00
- Code Issues 0 Pull requests 0 Actions Projects 0 Wiki Security Insights Settings
-syedfawad-pakistan.net/css/me ss.css
-@syedfawadhashmi5 syedfawadhashmi5 Update me ss.css
-aba9307 in 12 hours
-744 lines (697 sloc)  12.1 KB
-  
 body
  {
   color: #888;
@@ -179,9 +155,14 @@ nav.site-menu ul li a i
 {
     flex-wrap: nowrap;
 }
+nav.site-menu ul li 
+{
+  display: block;
+}
+}
 .logo-wrapper a 
 {
-  width: 38px;
+  width: 100%;
   overflow: hidden;
 }
 nav.site-menu .navbar button.navbar-toggler
@@ -192,7 +173,7 @@ nav.site-menu .navbar
 {
   justify-content: flex-end;
 }
-}
+
  nav.site-menu ul li a::after
  {
    content:""; background:#11843d; width:100%; height:4px; position:absolute; bottom:0px; left:0px; right:0px; opacity:0;
